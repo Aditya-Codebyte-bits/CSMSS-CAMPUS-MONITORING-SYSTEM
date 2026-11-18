@@ -1,0 +1,29 @@
+# Node dependencies and build
+node_modules/
+dist/
+build/
+.npm/
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+
+# Python backend artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+csmss_civic.db
+*.sqlite3
+
+# AI Studio and local editor caches
+.aistudio/
+.vscode/
+.idea/
+*.swp
+.DS_Store
